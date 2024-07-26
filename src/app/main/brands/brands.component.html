@@ -1,0 +1,37 @@
+<div class="mb-5">
+    <h1 class="text-center"><span>TECHNICAL SKILLS</span></h1>
+</div>
+
+<div class="d-flex justify-content-center align-items-center">
+    <ng-container *ngFor="let slide of slidesCloud">
+        <img class="mx-4" [src]="slide.src" [alt]="slide.alt" [title]="slide.title" [style]="slide.style">
+    </ng-container>
+</div>
+<div class="d-flex justify-content-center align-items-center">
+    <ng-container *ngFor="let slide of slidesWeb">
+        <img class="mx-4" [src]="slide.src" [alt]="slide.alt" [title]="slide.title" [style]="slide.style">
+    </ng-container>
+</div>
+<div class="d-flex justify-content-center align-items-center">
+    <ng-container *ngFor="let slide of slidesLanguage">
+        <img class="mx-4" [src]="slide.src" [alt]="slide.alt" [title]="slide.title" [style]="slide.style">
+    </ng-container>
+</div>
+<div class="d-flex justify-content-center align-items-center">
+    <ng-container *ngFor="let slide of slidesDatabase">
+        <img class="mx-4" [src]="slide.src" [alt]="slide.alt" [title]="slide.title" [style]="slide.style">
+    </ng-container>
+</div>
+
+
+
+<!-- <owl-carousel-o [options]="customOptions2">
+        <ng-container *ngFor="let slide of slidesStore">
+
+            <ng-template carouselSlide>
+                <div class="p-3 text-center d-flex align-items-center justify-content-center w-100">
+                        <img [src]="slide.src" [alt]="slide.alt" [title]="slide.title" [width]="slide.width" [height]="slide.height">
+                    </div>
+            </ng-template>
+        </ng-container>
+    </owl-carousel-o> -->
